@@ -139,7 +139,7 @@ div.text li {
 
 /*background*/
 #home {
-    background-image: url(../picture/leftImage.png);
+    background-image: url(../picture/frontImage.png);
 }
 
 #home h1,#home h2,#home h3,#home h4,#home h5,#home h6,#home p {
@@ -151,6 +151,17 @@ div.text li {
 #introduction-grow {
     background-color: white;
     height: 600px;
+}
+
+#introduction-grow > p {
+    padding-left: 350px;
+    padding-right: 350px;
+    text-align: left;
+}
+
+#introduction-grow > img {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #introduction {
@@ -291,9 +302,34 @@ video {
     height: 600px;
 }
 
+#photo-video > p {
+    padding-left: 350px;
+    padding-right: 350px;
+    text-align: left;
+}
+
+#photo-video > img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 #game {
     background-color: white;
-    height: 600px;
+    height: 400px;
+}
+
+#game > a {
+    display: inline-block;
+    padding: 50px;
+    width: 300px;
+}
+
+#game > a > div {
+    border-radius: 10px;
+    height: 100px;
+    line-height: 100px;
+    color: white;
+    font-size: 20px;
 }
 
 .game-block {
@@ -311,7 +347,7 @@ video {
 }
 
 #subLayout2 {
-    background-image: url(../picture/second.png);
+    background-image: url(../picture/plane.png);
 }
 
 /*mobile media*/
